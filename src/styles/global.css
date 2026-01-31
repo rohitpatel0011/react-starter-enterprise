@@ -3,3 +3,80 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.app {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h3 {
+  color: #ff00b3;
+  font-size: 1.5rem;
+}
+
+button {
+  background-color: white;
+  color: black;
+  display: block;
+  border: none;
+  padding: 1rem 4rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  font-size: large;
+  transition: all;
+}
+
+button a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.buttonDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+#ghBtn {
+  background-color: #242424;
+  color: white;
+  border: #ff00b3 1px solid;
+  transition: all 0.3s ease;
+}
+
+#ghBtn:hover {
+  background-color: white;
+  color: #ff00b3;
+  border: white 1px solid;
+}
+
+#docBtn {
+  background-color: white;
+  color: #ff00b3;
+  transition: all 0.3s ease;
+}
+
+#docBtn:hover {
+  background-color: #ff00b3;
+  color: white;
+}
+
+.headingDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
