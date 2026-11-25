@@ -1,4 +1,5 @@
 import { useState, type SubmitEvent } from 'react';
+import './LoginForm.css';
 
 interface LoginFormProps {
   onSubmit: (email: string, password: string) => void;
