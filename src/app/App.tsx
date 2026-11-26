@@ -1,5 +1,4 @@
 import '../App.css';
-import { AuthPage } from '../features/auth';
 
 function App() {
   return (
@@ -18,9 +17,6 @@ function App() {
           <button id="docBtn">
             <a href="">Documentation</a>
           </button>
-        </div>
-        <div className="authDiv">
-          <AuthPage />
         </div>
       </div>
     </>
